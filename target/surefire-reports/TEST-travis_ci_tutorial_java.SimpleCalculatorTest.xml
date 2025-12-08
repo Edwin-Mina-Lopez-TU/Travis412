@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="travis_ci_tutorial_java.SimpleCalculatorTest" time="0.025" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="travis_ci_tutorial_java.SimpleCalculatorTest" time="0.032" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/edwinminalopez/COSC412/Final Individual/Travis412/target/test-classes:/Users/edwinminalopez/COSC412/Final Individual/Travis412/target/classes:/Users/edwinminalopez/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/edwinminalopez/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.class.path" value="/Users/edwinminalopez/COSC412/CirclciWork/Travis412/target/test-classes:/Users/edwinminalopez/COSC412/CirclciWork/Travis412/target/classes:/Users/edwinminalopez/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/edwinminalopez/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -12,11 +12,11 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Users/edwinminalopez/Oracle_JDK-21.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/edwinminalopez/COSC412/Final Individual/Travis412/target/surefire/surefirebooter-20251208182805078_3.jar /Users/edwinminalopez/COSC412/Final Individual/Travis412/target/surefire 2025-12-08T18-28-05_033-jvmRun1 surefire-20251208182805078_1tmp surefire_0-20251208182805078_2tmp"/>
+    <property name="sun.java.command" value="/Users/edwinminalopez/COSC412/CirclciWork/Travis412/target/surefire/surefirebooter-20251208184830011_3.jar /Users/edwinminalopez/COSC412/CirclciWork/Travis412/target/surefire 2025-12-08T18-48-29_960-jvmRun1 surefire-20251208184830011_1tmp surefire_0-20251208184830011_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="travis_ci_tutorial_java.SimpleCalculatorTest#testAdd"/>
-    <property name="surefire.test.class.path" value="/Users/edwinminalopez/COSC412/Final Individual/Travis412/target/test-classes:/Users/edwinminalopez/COSC412/Final Individual/Travis412/target/classes:/Users/edwinminalopez/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/edwinminalopez/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/edwinminalopez/COSC412/CirclciWork/Travis412/target/test-classes:/Users/edwinminalopez/COSC412/CirclciWork/Travis412/target/classes:/Users/edwinminalopez/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/edwinminalopez/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/edwinminalopez"/>
     <property name="user.language" value="en"/>
@@ -24,13 +24,13 @@
     <property name="java.version.date" value="2024-07-16"/>
     <property name="java.home" value="/Users/edwinminalopez/Oracle_JDK-21.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/edwinminalopez/COSC412/Final Individual/Travis412"/>
+    <property name="basedir" value="/Users/edwinminalopez/COSC412/CirclciWork/Travis412"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/edwinminalopez/COSC412/Final Individual/Travis412/target/surefire/surefirebooter-20251208182805078_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/edwinminalopez/COSC412/CirclciWork/Travis412/target/surefire/surefirebooter-20251208184830011_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
@@ -46,7 +46,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/bc/m5twfxzx7073mnv_5cvfmr_w0000gn/T/"/>
     <property name="java.version" value="21.0.4"/>
-    <property name="user.dir" value="/Users/edwinminalopez/COSC412/Final Individual/Travis412"/>
+    <property name="user.dir" value="/Users/edwinminalopez/COSC412/CirclciWork/Travis412"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -59,5 +59,39 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testAdd" classname="travis_ci_tutorial_java.SimpleCalculatorTest" time="0.002"/>
+  <testcase name="testAdd" classname="travis_ci_tutorial_java.SimpleCalculatorTest" time="0.009">
+    <failure message="expected:&lt;2&gt; but was:&lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<2> but was:<0>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at travis_ci_tutorial_java.SimpleCalculatorTest.testAdd(SimpleCalculatorTest.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
 </testsuite>
