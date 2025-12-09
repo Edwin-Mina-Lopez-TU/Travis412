@@ -15,4 +15,16 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.subtract(3, 1), 2);
 	}
+
+	@Test
+	public void testMultiply() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.multiply(1, 1), 1);
+	}
+
+	@Test
+	public void testDivide() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.divide(10, 2), 5);
+	}
 }
