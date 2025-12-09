@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="travis_ci_tutorial_java.SimpleCalculatorTest" time="0.005" tests="4" errors="1" skipped="0" failures="1">
+<testsuite name="travis_ci_tutorial_java.SimpleCalculatorTest" time="0.002" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="21.0.4+8-LTS-274"/>
@@ -33,10 +33,8 @@
     <property name="java.class.version" value="65.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="jpda.listen" value="true"/>
     <property name="os.version" value="26.1"/>
     <property name="library.jansi.path" value="/Users/edwinminalopez/.vscode/extensions/oracle.oracle-java-25.0.0/nbcode/java/maven/lib/jansi-native"/>
-    <property name="jpda.address" value="65294"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/edwinminalopez"/>
     <property name="user.timezone" value="America/New_York"/>
@@ -44,10 +42,9 @@
     <property name="java.specification.version" value="21"/>
     <property name="user.name" value="edwinminalopez"/>
     <property name="java.class.path" value="/Users/edwinminalopez/.vscode/extensions/oracle.oracle-java-25.0.0/nbcode/java/maven/boot/plexus-classworlds-2.9.0.jar"/>
-    <property name="maven.surefire.debug" value="-agentlib:jdwp=transport=dt_socket,server=n,address=65294"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=travis_ci_tutorial_java.SimpleCalculatorTest -DforkMode=once -Dmaven.surefire.debug=-agentlib:jdwp=transport=dt_socket,server=n,address=65294 -Djpda.listen=true -Djpda.address=65294 -Dmaven.ext.class.path=/Users/edwinminalopez/.vscode/extensions/oracle.oracle-java-25.0.0/nbcode/java/maven-nblib/netbeans-eventspy.jar --no-transfer-progress process-test-classes surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=travis_ci_tutorial_java.SimpleCalculatorTest -Dmaven.ext.class.path=/Users/edwinminalopez/.vscode/extensions/oracle.oracle-java-25.0.0/nbcode/java/maven-nblib/netbeans-eventspy.jar --no-transfer-progress process-test-classes surefire:test"/>
     <property name="java.home" value="/Users/edwinminalopez/Oracle_JDK-21.jdk/Contents/Home"/>
     <property name="apple.awt.application.name" value="Launcher"/>
     <property name="user.language" value="en"/>
@@ -60,7 +57,6 @@
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2024-07-16"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="forkMode" value="once"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -68,20 +64,6 @@
   </properties>
   <testcase name="testAdd" classname="travis_ci_tutorial_java.SimpleCalculatorTest" time="0.002"/>
   <testcase name="testSubtract" classname="travis_ci_tutorial_java.SimpleCalculatorTest" time="0"/>
-  <testcase name="testDivide" classname="travis_ci_tutorial_java.SimpleCalculatorTest" time="0.003">
-    <error message="/ by zero" type="java.lang.ArithmeticException">java.lang.ArithmeticException: / by zero
-	at travis_ci_tutorial_java.SimpleCalculator.divide(SimpleCalculator.java:17)
-	at travis_ci_tutorial_java.SimpleCalculatorTest.testDivide(SimpleCalculatorTest.java:28)
-</error>
-  </testcase>
-  <testcase name="testMultiply" classname="travis_ci_tutorial_java.SimpleCalculatorTest" time="0">
-    <failure message="expected:&lt;1&gt; but was:&lt;2&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<1> but was:<2>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:743)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:555)
-	at org.junit.Assert.assertEquals(Assert.java:542)
-	at travis_ci_tutorial_java.SimpleCalculatorTest.testMultiply(SimpleCalculatorTest.java:22)
-]]></failure>
-  </testcase>
+  <testcase name="testDivide" classname="travis_ci_tutorial_java.SimpleCalculatorTest" time="0"/>
+  <testcase name="testMultiply" classname="travis_ci_tutorial_java.SimpleCalculatorTest" time="0"/>
 </testsuite>
